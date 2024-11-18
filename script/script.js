@@ -21,7 +21,7 @@ function genera() {
       .get("https://flynn.boolean.careers/exercises/api/random/mail")
       .then((res) => {
         console.log(res.data.response);
-        template += `<li> ${res.data.response}</li> <hr style="margin:0px;">`;
+        template += ` <li style="padding-top: 10px;"> <span style="color:#1a4870">Em@il : </span> ${res.data.response}</li> <hr style="margin:3px;">`;
         uListe.innerHTML = template;
       })
       // Se c'è un errore nel codice
@@ -34,6 +34,8 @@ function genera() {
       });
   }
 }
+// Al caricamento della paggina vengono generate 10 mail
+genera();
 
 //////////////////////////////-ESERCIZIO-//////////
 //  / Versione per generare 10 indirizzi email e stamparli in pagina all'interno di una lista

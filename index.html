@@ -12,9 +12,43 @@
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
     />
     <!-- js-link -->
-    <script src="./script/script.js"></script>
+    <script src="./script/script.js" type="module"></script>
     <!-- axios-link -->
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!-- google-font-link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body></body>
+  <body style="background-color: #fbf6e2">
+    <div
+      class="container d-flex justifuc-content-center align-items-center flex-column gap-5"
+    >
+      <div class="card text-center margin-top" style="width: 72rem">
+        <div
+          class="bg-header-card funnel-display"
+          id="listeCard"
+          style="color: white; font-size: 2rem"
+        >
+          EMAILS
+        </div>
+        <ul
+          class="list-group list-group-flush funnel-display"
+          id="uListe"
+          style="background-color: #f3f7ec"
+        ></ul>
+      </div>
+      <!-- <button
+        type="button"
+        class="btn btn-dark text-center funnel-display"
+        style="width: 18rem; background-color: #1a4870"
+        id="button"
+      >
+        Genera-mail
+      </button> -->
+    </div>
+  </body>
 </html>

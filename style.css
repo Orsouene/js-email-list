@@ -1,0 +1,20 @@
+/* il margin top della card */
+.margin-top {
+  margin-top: 100px;
+}
+/* Il colore del background del header della card */
+.bg-header-card {
+  background-color: #5b99c2;
+}
+
+/* Liste-style */
+#uListe {
+  list-style: none;
+}
+
+/* Google-font */
+.funnel-display {
+  font-family: "Funnel Display", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
